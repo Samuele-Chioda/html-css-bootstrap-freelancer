@@ -36,8 +36,8 @@ h1{
 .fa-brands{
     border:solid 1px white;
     border-radius: 50%;
-    height: 3rem;
-    width: 3rem;
+    height: 2.5rem;
+    width: 2.5rem;
     align-content: center;
     margin: 0.3rem;
 }
@@ -64,4 +64,20 @@ h1{
 
 .dati{
     font-weight:bold;
+}
+
+@media screen and (min-width:768px){
+    .my_article{
+        display: flex;
+    }
+    #jumbo{
+        max-width: 25%;
+    } 
+}
+
+@media screen and (min-width:992px){
+    #padding{
+        padding-left:8rem;
+        padding-right:8rem;
+    }
 }
