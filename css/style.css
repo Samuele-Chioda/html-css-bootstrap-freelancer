@@ -62,6 +62,9 @@ h1{
     background-color: #1abc9c ;
     color: white;
     border-radius: 15%;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .pb-8{
@@ -80,10 +83,9 @@ h1{
 .fa-star{
     font-size: 2rem;
 }
-
 /* media query's */
 @media screen and (max-width:605px){
-    .my_absolute{
+    #my_absolute{
         position: absolute;
         right: 0;
     }
